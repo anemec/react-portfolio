@@ -43,7 +43,7 @@ export default function Post() {
                     key={index}
                   >
                     <img
-                      src={post.mainImg.asset.url}
+                      src={post.mainImage.asset.url}
                       alt={post.mainImage.alt}
                       className='w-full h-full rounded-r object-cover absolute'
                     />
